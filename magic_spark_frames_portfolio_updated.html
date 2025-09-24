@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MAGIC SPARK FRAMES — Muntha Sumadhur</title>
+  <meta name="description" content="Portfolio of Muntha Sumadhur — Video Editor. Adobe Premiere Pro, After Effects, CapCut (PC), Filmora." />
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#ffb86b;--muted:#9aa4b2;--glass:rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,'Helvetica Neue',Arial;color:#e6eef6;background:linear-gradient(180deg,#071226 0%, #071a2b 60%);-webkit-font-smoothing:antialiased}
+    .wrap{max-width:1000px;margin:40px auto;padding:28px}
+
+    header{display:flex;gap:18px;align-items:center}
+    .logo img{width:78px;height:78px;border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,0.5),inset 0 -6px 18px rgba(255,255,255,0.06)}
+    .intro{flex:1}
+    .intro h2{margin:0;font-size:22px}
+    .intro p{margin:6px 0 0;color:var(--muted)}
+
+    nav{display:flex;gap:10px}
+    a.btn{background:var(--glass);padding:8px 12px;border-radius:10px;color:var(--accent);text-decoration:none;font-weight:600;border:1px solid rgba(255,255,255,0.03)}
+
+    main{display:grid;grid-template-columns:1fr 360px;gap:22px;margin-top:26px}
+    @media(max-width:920px){main{grid-template-columns:1fr} .sidebar{order:2}}
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:14px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+
+    .hero{display:flex;gap:18px;align-items:flex-start}
+    .avatar img{width:120px;height:120px;border-radius:12px;object-fit:cover;box-shadow:0 4px 16px rgba(0,0,0,0.5)}
+    .hero h3{margin:0;font-size:20px}
+    .tags{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap}
+    .pill{background:rgba(255,255,255,0.02);padding:6px 8px;border-radius:10px;border:1px solid rgba(255,255,255,0.02);font-weight:600;color:var(--muted);font-size:13px}
+
+    h4{margin:0 0 8px 0}
+    ul{margin:0;padding-left:18px;color:var(--muted)}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{padding:10px 12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.02);font-weight:700}
+
+    .projects .proj{margin-bottom:14px;padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));border:1px solid rgba(255,255,255,0.02);transition:transform 0.2s}
+    .projects .proj:hover{transform:translateY(-4px)}
+    .projects .proj h5{margin:0;font-size:15px}
+    .meta{color:var(--muted);font-size:13px;margin-top:6px}
+
+    .sidebar .card + .card{margin-top:18px}
+    .socials{display:flex;gap:10px;margin-top:8px;flex-wrap:wrap}
+    .socials a{display:inline-flex;align-items:center;gap:8px;padding:8px 10px;border-radius:10px;background:rgba(255,255,255,0.02);text-decoration:none;color:var(--accent);font-weight:700;transition:transform 0.2s}
+    .socials a:hover{transform:translateY(-3px)}
+
+    footer{margin-top:28px;color:var(--muted);text-align:center;font-size:13px}
+
+    /* button hover */
+    .btn:hover{transform:translateY(-2px)}
+    .skill:hover{transform:translateY(-4px)}
+
+    /* subtle entrance */
+    .card{opacity:0;transform:translateY(8px);animation:enter .6s ease forwards}
+    .card:nth-child(1){animation-delay:0.05s}
+    .card:nth-child(2){animation-delay:0.12s}
+    .card:nth-child(3){animation-delay:0.18s}
+    @keyframes enter{to{opacity:1;transform:none}}
+
+    /* contact */
+    form input, form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit;margin-top:8px}
+    form button{margin-top:10px;padding:10px 14px;border-radius:10px;border:none;background:linear-gradient(90deg,var(--accent),#ffd3a7);font-weight:800;cursor:pointer}
+
+    /* thumbnails */
+    .thumb{width:100%;max-width:320px;border-radius:12px;overflow:hidden;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,0.5);transition:transform 0.3s}
+    .thumb:hover{transform:scale(1.03)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo"><img src="logo .jpg" alt="Logo"></div>
+      <div class="intro">
+        <h2>Muntha Sumadhur — Video Editor</h2>
+        <p>Creator behind <strong>MAGIC SPARK FRAMES</strong> • Editing & Media — Premiere Pro, After Effects, CapCut (PC), Filmora</p>
+      </div>
+      <nav>
+        <a class="btn" href="#projects">Projects</a>
+        <a class="btn" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="card hero">
+          <div class="avatar"><img src="piccc 1.jpg" alt="My Photo"></div>
+          <div style="flex:1">
+            <h3>Hi — I'm Sumadhur</h3>
+            <p style="color:var(--muted);margin-top:6px">I will shoot promotional content & edit social media content using advanced transitions, keyframe animation and VFX touch-ups.</p>
+            <div class="tags" style="margin-top:12px">
+              <span class="pill">YouTube: MAGIC SPARK FRAMES</span>
+              <span class="pill">Instagram: @MAGICSPARKFRAMES</span>
+              <span class="pill">Location: Nellore, Andhra Pradesh</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h4>Skills</h4>
+          <div class="skills" style="margin-top:10px">
+            <div class="skill">Adobe Premiere Pro</div>
+            <div class="skill">Adobe After Effects</div>
+            <div class="skill">CapCut (PC)</div>
+            <div class="skill">Filmora</div>
+          </div>
+        </div>
+
+        <div id="projects" class="card projects" style="margin-top:16px">
+          <h4>Editing Projects & Short Films</h4>
+
+          <div class="proj">
+            <h5>Documentary Film — WHY EEE ?</h5>
+            <a href="https://youtu.be/e4AzrAVrl1E?si=jNJEcEALpFgztsrg" target="_blank">
+              <img src="WHY EEE.jpg" alt="Short Film Thumbnail" class="thumb">
+            </a>
+            <div class="meta">Click the thumbnail to watch on YouTube</div>
+          </div>
+
+          <div class="proj">
+            <h5>Short Film — ECHO</h5>
+            <a href="https://youtu.be/NiSlNKDVYJs?si=Y-npfKXk9MrxDaBW" target="_blank">
+              <img src="ECHO.jpg" alt="Short Film Thumbnail" class="thumb">
+            </a>
+            <div class="meta">Click the thumbnail to watch on YouTube</div>
+          </div>
+  <div class="proj">
+            <h5>Short Film — THE JOURNEY</h5>
+            <a href="https://youtu.be/5J5WJ0uL1Jw?si=ItTiww0vpwnOYHmh" target="_blank">
+              <img src="THE JOURNEY.jpg" alt="Short Film Thumbnail" class="thumb">
+            </a>
+            <div class="meta">Click the thumbnail to watch on YouTube</div>
+          </div>
+
+          <h4 style="margin-top:16px">Instagram Reels</h4>
+          <div class="proj">
+            <h5>Reel — Example 1</h5>
+            <a href="https://insta-reel1" target="_blank">
+              <img src="reel1.jpg" alt="Reel Thumbnail" class="thumb">
+            </a>
+          </div>
+
+          <div class="proj">
+            <h5>Reel — Example 2</h5>
+            <a href="https://insta-reel2" target="_blank">
+              <img src="reel2.jpg" alt="Reel Thumbnail" class="thumb">
+            </a>
+          </div>
+
+          <div class="proj">
+            <h5>Reel — Example 3</h5>
+            <a href="https://insta-reel3" target="_blank">
+              <img src="reel3.jpg" alt="Reel Thumbnail" class="thumb">
+            </a>
+          </div>
+
+          <h4 style="margin-top:16px">Video Promotion Shoots</h4>
+
+          <div class="proj">
+            <h5>Promo Shoot — Dress Circle Shopping Mall, Nellore</h5>
+            <a href="https://www.instagram.com/reel/DOgeP9RExO0/?igsh=bmk5aWlxZm1reXhh" target="_blank">
+              <img src="Dress Circle.jpg" alt="Promo Thumbnail" class="thumb">
+            </a>
+          </div>
+
+          <div class="proj">
+            <h5>Promo Shoot — B NEW Mobiles and Electronics, Nellore</h5>
+            <a href="https://www.instagram.com/reel/DO545Rpk5WI/?igsh=eDdrdWk1ZXRmdHMz" target="_blank">
+              <img src="B NEW.jpg" alt="Promo Thumbnail" class="thumb">
+            </a>
+          </div>
+
+          <div class="proj">
+            <h5>Promo Shoot — CMR Shopping Mall, Nellore</h5>
+            <a href="https://www.instagram.com/reel/DO7t5e2Ez1k/?igsh=Y3hyZDY0dzlleHJi" target="_blank">
+              <img src="CMR.jpg" alt="Promo Thumbnail" class="thumb">
+            </a>
+          </div>
+        </div>
+    
+
+        <div id="contact" class="card" style="margin-top:16px">
+          <h4>Contact</h4>
+          <p style="color:var(--muted);margin-top:6px">Want to collaborate? Reach out to me directly.</p>
+          <p><strong>Phone:</strong> +91 8074620651<br>
+             <strong>Email:</strong> <a href="mailto:sumadhur2002@gmail.com">sumadhur2002@gmail.com</a></p>
+             <strong>Email:</strong> <a href="mailto:magicsparkframes@gmail.com">magicsparkframes@gmail.com</a></p>
+          <form onsubmit="handleContact(event)">
+            <input id="name" placeholder="Your name" required />
+            <input id="email" type="email" placeholder="Your email" required />
+            <textarea id="message" rows="4" placeholder="Short message" required></textarea>
+            <button type="submit">Send message</button>
+          </form>
+          <p id="sent" style="display:none;margin-top:10px;color:var(--muted)">Thanks! Your message will open in your email client.</p>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <div class="card">
+          <h4>About the Creator</h4>
+          <p style="color:var(--muted);margin-top:8px">Name: <strong>Muntha Sumadhur</strong><br/>Role: Video Editor & Content Creator & Video grapher<br/>Brand: <strong>MAGIC SPARK FRAMES</strong></p>
+
+          <div style="margin-top:12px">
+            <h4>Awards & Recognition</h4>
+            <ul style="margin-top:8px">
+              <li>Winner — Short Film Competition, Chalanachitra Club</li>
+              <li>Winner — Short Film Competition during World Space Week by ISRO</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:12px">
+            <h4>Quick links</h4>
+            <div class="socials">
+              <a href="https://youtube.com/@MagicSparkFrames" target="_blank">YouTube</a>
+              <a href="https://instagram.com/magic_spark_frames?igsh=dnhrNmF3dDI1ZGpx" target="_blank">Instagram (Brand)</a>
+              <a href="https://instagram.com/__sumadhur__?igsh=dnNmMGxvcnQ3YzJ4" target="_blank">Instagram (Personal)</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:18px">
+          <h4>Download</h4>
+          <p style="color:var(--muted);margin-top:8px">Download my full professional resume.</p>
+          <a class="btn" href="MUNTHA SUMADHUR _RESUME.pdf" download>Download Resume (PDF)</a>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div>© <span id="year"></span> MAGIC SPARK FRAMES — Muntha Sumadhur • Built with ❤️</div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function handleContact(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const msg = document.getElementById('message').value.trim();
+      const subject = encodeURIComponent('Collab request from portfolio');
+      const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${msg}`);
+      window.location.href = `mailto:youremail@example.com?subject=${subject}&body=${body}`;
+      document.getElementById('sent').style.display='block';
+    }
+  </script>
+</body>
+</html>
